@@ -1,0 +1,21 @@
+.yuan{
+    display: flex;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: red;
+    position: absolute;
+    right: 456px;
+    top: 8px;
+}
+
+.yuan2{
+    display: flex;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: red;
+    position: absolute;
+    right: 430px;
+    top: 8px;
+}

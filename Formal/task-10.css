@@ -1,0 +1,39 @@
+.main-top-box1 {
+    float: right;
+}
+
+.main-top-box3 {
+    float: left;
+}
+
+.main-top-square {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+    width: 10rem;
+    height: 0.6rem;
+    border-radius: 10%;
+    background-color: #ccc;
+}
+/* 横线 顶部20px 底部20px 相对定位 行内块元素 线条长100px 宽度6px 线条圆角百分10 线条灰色*/
+
+.main-top-circle {
+    position: absolute;
+    top: -140%;
+    left: 38%;
+    text-align: center;
+    display: inline-block;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #ccc;
+}
+/* 圆 定位决定定位 位置百分比 左 、上、  圆宽度25px 圆角程度50% 字体白色 背景色灰色 */
+
+.main-top-word {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #ccc;
+}
