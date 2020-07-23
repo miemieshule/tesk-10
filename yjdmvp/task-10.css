@@ -19,3 +19,104 @@
     right: 430px;
     top: 8px;
 }
+
+.main-title-top-mf{
+    background-color: #999999;
+    font-size: 1.5rem;
+    color: #1d7ad9;
+    line-height: 5rem;
+    border: 1px solid #f3f3f3;
+    border-top-left-radius:1rem;
+    border-top-right-radius:1rem;
+}
+/*错误 忘记加边框 给错背景色 圆角数值太高能用rem */
+
+.main-title-picture-mf{
+    width:20px ;
+    height: 15px;
+    background-image: url("./img/task10-2.png");
+
+    background-repeat: no-repeat;
+    margin: 1.5rem;
+    background-position: 0;
+    padding: 1rem;
+}
+
+/*重复显示 上下左右 ; 下回比对原图，间距没有控制 ；
+ 使用 width 和 height控制图片
+ 没有考虑初始的垂直向上定位问题*/
+
+.mai-mai-box1-mf{
+    background-color: #f3f3f3;
+    height: 7rem;
+    border: 1px solid #999999;
+}
+
+.main-main-box3-mf{
+    float: left;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+
+.main-radio-1{
+    position: absolute;
+    display: none;
+    color: red;
+}
+
+.main-mian-4-mf{
+    float: right;
+    margin-right: 1rem;
+    height: 100%;
+}
+
+.main-select-1-mf{
+    width: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 5rem;
+    padding-left: 2.5rem;
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #999;
+    border: solid 1px #e8e8e8;
+}
+
+.main-main-box-mf{
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    border: 1px solid #999999;
+}
+/* 没有看道高度的设定 应是我之前研究的那种
+overflow属性指定如果内容溢出一个元素的框，会发生什么。
+hidden 内容会被修剪，并且其余内容是不可见的。
+只显示指定高宽度内容，就像是照片的裁剪，设定裁剪宽高，把照片的某一个部分剪下来，不出现滚动条
+但是没设定高度啊 , 试验 不设定宽高，就是百分百宽高展开 有点像是全选照片所有范围。
+最上面的大盒子，相对定位
+*/
+
+.main-mian-7-mf{
+    overflow: hidden;
+}
+
+.main-mian-box5-mf{
+    color: black;
+    font-size: 2rem;
+    padding: 2rem;
+    float: left;
+}
+
+.main-mian-box8-mf{
+    position: absolute;
+    margin-right: 1rem;
+    top: 70%; transform: translateY(-50%);
+    right: 0;
+}
+/*Transform属性应用于元素的2D或3D转换。这个属性允许你将元素旋转，缩放，移动，倾斜等。
+translateY(y) 定义转换，只是用 Y 轴的值 y 轴 高度 。
+这里控制高度 有top 和y轴 height100%  不明白为什么设置3
+如果上面有相对位置 这里设置绝对位置 就不需要布局标签了吧 直接写距离就行
+重点布局写法 如果要达到右浮动到的效果 使用绝对定位 数据位置值 right： 0 */
