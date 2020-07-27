@@ -1,7 +1,7 @@
 .main-top-box1 {
     float: right;
 }
-
+/*主体部分 开始*/
 .main-top-box3 {
     float: left;
 }
@@ -86,6 +86,7 @@
         font-size: 0.9rem;
     }
 }
+
 .main-title-1{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -206,6 +207,7 @@
 .main-radio-1:checked + label::before{
     background: #1d7ad9;
     animation-name: none;
+/*    制定动画名称 这里没有指定？*/
 }
 .main-radio-1 + label::after{
     position: absolute;
@@ -222,7 +224,6 @@
     display: block;
 }
 .main-select-1{
-
     width: auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -234,9 +235,11 @@
     color: #999;
     border: solid 1px #e8e8e8;
 }
+
 option{
-    text-align: center;
+    text-align: center ;
 }
+
 select {
     border: solid 1px #e8e8e8;
     width: 12.7rem;
@@ -247,7 +250,11 @@ select {
     background: url("./img/task10-5.png") no-repeat scroll right center transparent;
     background-position: 10rem 0.5rem;
 }
-select::-ms-expand { display: none; }
+
+select::-ms-expand {
+    display: none;
+}
+
 .main-main-box4{
     height: 100%;
     float: right;
@@ -274,16 +281,16 @@ select::-ms-expand { display: none; }
 .main-main-box5{
     color: #666;
     font-size: 1.8rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     margin-right: 1rem;
     margin-left: 2rem;
     float: left;
 }
 .main-main-box6{
     display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     margin: 0 1rem;
     float: left;
     font-size: 1.8rem;
@@ -328,14 +335,14 @@ select::-ms-expand { display: none; }
 @media screen and (max-width:992px){
     .main-main-box5{
         font-size: 1.6rem;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         margin-right: 0.8rem;
         margin-left: 1.8rem;
     }
     .main-main-box6{
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         margin: 0 0.8rem;
         font-size: 1.6rem;
     }
@@ -455,7 +462,7 @@ select::-ms-expand { display: none; }
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     text-align: center;
-    height: 28.8rem;
+    height: 13.8rem;
     border: 0.1rem solid #e8e8e8;
 }
 .main-bottom-button{
@@ -470,6 +477,8 @@ select::-ms-expand { display: none; }
 .main-bottom-a{
     color: #fff;
 }
+/*主体结束部分 按钮 */
+
 @media screen and (max-width:736px){
     .main-bottom-box{
         height: 14.4rem;

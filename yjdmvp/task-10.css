@@ -120,3 +120,47 @@ translateY(y) 定义转换，只是用 Y 轴的值 y 轴 高度 。
 这里控制高度 有top 和y轴 height100%  不明白为什么设置3
 如果上面有相对位置 这里设置绝对位置 就不需要布局标签了吧 直接写距离就行
 重点布局写法 如果要达到右浮动到的效果 使用绝对定位 数据位置值 right： 0 */
+
+.main-bottom-box-mf{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    border: 1rem solid #999999;
+}
+
+.main-buttom-mf{
+    width: 18rem;
+    height: 6rem;
+    background-color: red;
+    border: 1rem solid red;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.main-boto-a-mf{
+    color: white;
+}
+
+select{
+    -webkit-appearance: none;
+    background: url("./img/task10-5.png") no-repeat;
+    background-position: 10rem 0.5rem ;
+}
+
+option{
+    width: 10rem;
+}
+
+/*select {
+    border: solid 1px #e8e8e8;
+    width: 12.7rem;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    outline: none;
+    background: url("./img/task10-5.png") no-repeat scroll right center transparent;
+    background-position: 10rem 0.5rem;
+}
+*/
