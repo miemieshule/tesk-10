@@ -164,3 +164,32 @@ option{
     background-position: 10rem 0.5rem;
 }
 */
+
+.header-top-box{
+    background-color: #1d7ad9;
+    line-height: 4rem;
+}
+
+.header-top-p{
+    font-size: 2rem;
+    color: white;
+    float: left;
+}
+
+.header-top-botton-box{
+    display: flex;
+    float: right;
+    color: white;
+}
+
+.header-top-dl{
+    border-left: 0.1rem solid white;
+    border-right: 0.1rem solid white;
+    padding: 0 1rem;
+}
+
+.header-top-dl:hover{
+    width: 7rem;
+    background-color: white;
+    color: black;
+}
